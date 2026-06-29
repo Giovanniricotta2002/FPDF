@@ -1,0 +1,10 @@
+{
+    "require": {
+        "php": ">=7.4",
+        "friendsofphp/php-cs-fixer": "^3.0",
+        "phpstan/phpstan": "^1.10"
+    },
+    "config": {
+        "vendor-dir": "vendor"
+    }
+}

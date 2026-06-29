@@ -1,0 +1,26 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Variable \\$b2 might not be defined\\.$#"
+			count: 2
+			path: fpdf.php
+
+		-
+			message: "#^Variable \\$cmapkey might not be defined\\.$#"
+			count: 2
+			path: fpdf.php
+
+		-
+			message: "#^Variable \\$cw might not be defined\\.$#"
+			count: 1
+			path: fpdf.php
+
+		-
+			message: "#^Variable \\$ls might not be defined\\.$#"
+			count: 1
+			path: fpdf.php
+
+		-
+			message: "#^Variable \\$pal in empty\\(\\) always exists and is always falsy\\.$#"
+			count: 1
+			path: fpdf.php
